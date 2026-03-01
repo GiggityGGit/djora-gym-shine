@@ -56,7 +56,7 @@ const Dashboard = () => {
           </div>
         </header>
 
-        <div className="p-8 space-y-8">
+        <div className="p-8 space-y-8 max-w-7xl mx-auto">
           {/* Stats Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             <StatCard icon={Users} label="Total Members" value="2,847" change="+12.5%" positive delay={0} />
